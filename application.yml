@@ -6,9 +6,16 @@ eureka:
 
 ---
 spring:
+  profiles: sentence
+server:
+  port: 8020  
+words: NotApplicable
+    
+---
+spring:
   profiles: subject
 words: I,You,He,She,It
-
+  
 ---
 spring:
   profiles: verb
